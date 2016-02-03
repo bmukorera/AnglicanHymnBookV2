@@ -1,0 +1,19 @@
+<ion-view view-title="Anglican Hymn Book">
+    <ion-nav-bar class="bar-positive" align-title="center">
+        <ion-nav-back-button class="button-small">
+            <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+    </ion-nav-bar>
+  <ion-content>
+      <!--<label class="item item-input">-->
+          <!--<i class="icon ion-search placeholder-icon"></i>-->
+          <!--<input type="search" placeholder="Search" ng-model="hymnSearchText">-->
+      <!--</label>-->
+    <ion-list>
+      <ion-item ng-repeat="homeItem in homeList" ui-sref="{{homeItem.homeitemurl}}" class="item item-icon-left">
+          <i class="icon {{homeItem.iconname}}"></i>
+        {{homeItem.homeitemname}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

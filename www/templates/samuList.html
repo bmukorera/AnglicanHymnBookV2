@@ -1,0 +1,22 @@
+<ion-view view-title="Samu">
+    <ion-nav-bar class="bar-positive" align-title="center">
+        <ion-nav-buttons side="right">
+            <button class="button icon-left ion-home" ui-sref="home">
+            </button>
+        </ion-nav-buttons>
+        <ion-nav-back-button class="button-small" >
+            <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+    </ion-nav-bar>
+  <ion-content>
+      <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="Search" ng-model="samuSearchText">
+      </label>
+    <ion-list>
+      <ion-item ng-repeat="playlist in samuList | filter:samuSearchText" ui-sref="samuSelection({ samuTitle: playlist.samuTitle,samuContent : playlist.samuContent})" >
+        {{playlist.samuTitle}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+<ion-view view-title="Prayers">
+    <ion-nav-bar class="bar-positive" align-title="center">
+        <ion-nav-buttons side="right">
+            <button class="button icon-left ion-home" ui-sref="home">
+            </button>
+        </ion-nav-buttons>
+        <ion-nav-back-button class="button-small" >
+            <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+    </ion-nav-bar>
+  <ion-content>
+    <ion-list>
+        <ion-item ng-repeat="prayers in prayerMainList " href="#/{{prayers.urlname}}">
+           {{prayers.prayerName}}
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
