@@ -771,7 +771,7 @@
     "id": "56b1e2b7ce24543233eef450",
     "hymnNumber": 97,
     "hymnTitle": "Spirit of mercy, truth, and love.",
-    "hymnContent": "<div> <div> <div> <p><strong>97</strong></p><p><em><strong>Spirit of mercy, truth, and love. </strong></em></p> <blockquote> <p>8888</p> </blockquote> </div> <div data-bind=\"text: 1\"></div> </div> <div> <p>1. IWE Mweya Unoyera </p><p> Nyasha, chokwadi, norudo, </p><p> Paradzirao panesu </p><p> Nezvikomborero nhasi. </p><p><br/> </p><p><br/> </p><p>2. Nyika dzese ngadziimbe</p><p>Mbiri yaMwari vaimbe,</p><p>Vazive mabasa ese</p><p>Muponisi akaita.</p><p><br/> </p><p> 3. Munyaradzi wokudenga</p><p> Gara munesu muChechi;</p><p> Zvipo zvako ngatipiwe</p><p> Iwe Mweya Unoyera.</p><p><br/> </p><p><br/> </p></div>",
+    "hymnContent": "<div> <div> <div> <p><strong>97</strong></p><p><em><strong>Spirit of mercy, truth, and love. </strong></em></p> <blockquote> <p>8888</p> </blockquote> </div> <div ></div> </div> <div> <p>1. IWE Mweya Unoyera </p><p> Nyasha, chokwadi, norudo, </p><p> Paradzirao panesu </p><p> Nezvikomborero nhasi. </p><p><br/> </p><p><br/> </p><p>2. Nyika dzese ngadziimbe</p><p>Mbiri yaMwari vaimbe,</p><p>Vazive mabasa ese</p><p>Muponisi akaita.</p><p><br/> </p><p> 3. Munyaradzi wokudenga</p><p> Gara munesu muChechi;</p><p> Zvipo zvako ngatipiwe</p><p> Iwe Mweya Unoyera.</p><p><br/> </p><p><br/> </p></div>",
     "headerNumber": "8888",
     "additional": null
   },
@@ -797,6 +797,110 @@
     "hymnTitle": "Gracious Spirit, Holy Ghost",
     "hymnContent": "<div> <p>1. MWEYA une grasia, </p><p> Mupi wezvipo zvese, </p><p> Tinochiva zvikuru </p><p> Chipo chorudo. </p><p><br/> </p> <p>2. Rudo harunyangadzi; </p><p> Rune mutsa nenyasha, </p><p> Runokurira kufa, </p><p> Tipewo rudo. </p><p><br/> </p> <p>3. Rudo norudaviro,</p><p>Nechivimbo, taona</p><p>Izvi zvitatu zvese.</p><p>Chikuru rudo.</p><p><br/> </p><p>4. Unogara kumusoro</p><p>Nepfuma dzese dzedi,</p><p>Tipe tinokumbira</p><p>Chipo chorudo.</p></div>",
     "headerNumber": "8888",
+    "additional": null
+  },
+  {
+    "id": "56b63717a8266f9560e9867a",
+    "hymnNumber": 101,
+    "hymnTitle": "All hail, adored Trinity",
+    "hymnContent": "<p>1. TINOOMBERA UTATU, </p><p> Tinoombera Uhumwe, </p><p> Mwari Baba, Mukorore </p><p> NoMweya Unoyera. </p><p><br/></p><p>2. Iri zuva rokufara </p><p>Vese vanokunamata; </p><p>Ona iri zuva nhasi </p><p>Nziyo dzokutenda kwedu. </p><p>Amen.</p><p><br/></p><p><br/></p><p>3. Ngatiimbire Vatatu </p><p>Asi Mwari mumwe chete</p><p>Mwari ita tirurame</p><p>Nesimba rako norudo.</p><p><br/></p><p><br/></p><p>4. Utatu munoUhumwe</p><p>Iva nesu tonamata,</p><p>Tichiimba nengerosi</p><p>Pamwepo tichikukudza.</p>",
+    "headerNumber": "8888",
+    "additional": null
+  },
+  {
+    "id": "56b637cba8266f9560e9867b",
+    "hymnNumber": 102,
+    "hymnTitle": "Bright the vision that delighted",
+    "hymnContent": "<p>1. KARE kwazvo Muprofiti </p><p> Akaona kudenga </p><p> Zhinji hondo dzengerosi </p><p> Dzichiimbira Mwari. </p><p><br/></p><p>2. Dzakapfugama ngerosi </p><p> Dzichiimbira Mwari, </p><p>Dzakazara umba yake </p><p> Dzichiimba dzichiti: </p><p><br/></p><p>3. “Mbiri yako inozadza </p><p> Denga nepasi rese, </p><p> Iwe Unoyera Tenzi </p><p> Tinokupa mbirizve” </p><p><br/></p><p>4. Mbiri inorira denga</p><p>Pasi richiimbazve,</p><p>Iwe Unoyera Tenzi,</p><p>Iwe Mwari Mukuru.</p><p>5. Isu pamwe ngatiimbe</p><p>Nengerosi Kudenga</p><p>Nei Chechi pasi pano</p><p>Mazwi okutunhidza.</p><p>6 “Mbiri yako inozadza</p><p>Denga nepasi rese,</p><p>Iwe Unoyera Tenzi</p><p>Tinokupa mbirizve”</p>",
+    "headerNumber": "8888",
+    "additional": null
+  },
+  {
+    "id": "56b63947a8266f9560e9867c",
+    "hymnNumber": 103,
+    "hymnTitle": "Be near us, Holy Trinity",
+    "hymnContent": "<p>1. IVA panesu Utatu, </p><p> Mwari mumwe unojeka, </p><p>Kunewe zvese zvinobva, </p><p>Uri mavambo ezvese. </p><p> </p><p>2. Nouwandu hwenyenyedzi </p><p>Kunewe hunotunhidza; </p><p>Pasi nenyanza nedenga </p><p>Zvinokuimbira rwiyo. </p><p><br /></p><p>3. Nesu vanamati vako,</p><p>Kunewe tinopfugama;</p><p>Tinokudza nokufara</p><p>Navatsvene nengerosi.</p><p><br /></p><p>4. Tinodavira Uhumwe;</p><p>Tinonamata Utatu;</p><p>Pamwe nezvisikwa zvese,</p><p>Tese tinokutunhidza.</p><p><br /></p><p>5. Mbiri kunaMwari Baba,</p><p>Mbiri kunoMukorore,</p><p>Mbiri kunewezve Mweya,</p><p>Utatu hwakavandika. Amen.</p>",
+    "headerNumber": "8888",
+    "additional": null
+  },
+  {
+    "id": "56b63a95a8266f9560e9867d",
+    "hymnNumber": 104,
+    "hymnTitle": "Holy, Holy, Holy, Lord God Almighty",
+    "hymnContent": "<p>1. IWE Unoyera, Mwari unesimba, </p><p>Mangwanani tinoimbira kunewe; </p><p>Iwe Unoyera, nomutsa nesimba, </p><p>Mwari mumweyo muno Utatu. </p><p><br /></p><p>2. Iwe Unoyera, Vatsvene kudenga </p><p>Vanokuombera nezviremba zvavo; </p><p>Chita chengerosi chinokutunhidza </p><p>Mwari usingagumi narini. </p><p> </p><p><br /></p><p>3. Iwe Unoyera, rima rinosvisa</p><p>Mbiri yako huru kune vanyangadzi</p><p>Iwe Unoyera, hapanazve mumwe</p><p>Anoperera simba, norudo.</p><p><br /></p><p><br /></p><p>4.Iwe Unoyera, Mwari Unesimba</p><p>Pasi, denga, nyanza zvinokutunhidza;</p><p>Iwe Unoyera, nomutsa nesimba</p><p>Mwari mumweyo munoUtatu.</p>",
+    "headerNumber": null,
+    "additional": null
+  },
+  {
+    "id": "56b63bc3a8266f9560e9867e",
+    "hymnNumber": 105,
+    "hymnTitle": "Three in One and One in Three",
+    "hymnContent": "<p>1. MWARI mumwe Utatu, </p><p> Mambo wepasi pese, </p><p> Inzwa kuchema kwedu </p><p> Tinokumbira. </p><p><br /></p><p>3. Kupenya kwemauro </p><p> Zvitadzo zviregererwe, </p><p> Tibatsire nomutsa, </p><p> Norunyararo. </p><p><br /></p><p><br /></p><p>2. Kupenya kwoKupenya,</p><p>Tejekeserwe newe,</p><p>Rudo rwako rukuru ,</p><p>Rutifemere.</p><p>4. Mwari mumwe Utatu</p><p>Tinokukudza pano</p><p>Utipe zvipo zvako</p><p>Navanoyera .</p>",
+    "headerNumber": "7775",
+    "additional": null
+  },
+  {
+    "id": "56b63d11a8266f9560e9867f",
+    "hymnNumber": 106,
+    "hymnTitle": "Oh God, our help in ages past",
+    "hymnContent": "<p>1. MUBATSIRI wedu Mwari, </p><p> Tariro yeduzve, </p><p> Mudziviriri Munhamo </p><p> Chivimbo narini. </p><p><br /></p><p>2. Pasi peChigaro chako </p><p> Vatsvene vakotswa, </p><p> Ruoko rwako rwokwana </p><p> Kutidzivirira. </p><p><br /></p><p>3. Zvese zvisati zvavapo </p><p> Makomo nepasi, </p><p> Iwe wakanga uripo </p><p> Mugari narini. </p><p><br /></p><p>4. Misi mizhinji kunewe</p><p>Inenge kanguva,</p><p>Senguva yorungwanani</p><p>Kusati kwayedza.</p><p><br /></p><p>5. Nguva inokunguruka,</p><p>Musi nomusizve;</p><p>Zvichakanganika zvese</p><p>Sokurota hope.</p><p><br /></p><p>6. Mubatsiri wedu, Mwari,</p><p>Tariro yeduzve,</p><p>Mudziviriri munhamo</p><p>Chivimbo narini.4</p>",
+    "headerNumber": "8686",
+    "additional": null
+  },
+  {
+    "id": "56b64916a8266f9560e98681",
+    "hymnNumber": 107,
+    "hymnTitle": "Now thank we all our God",
+    "hymnContent": "<p>1. NGATITENDE Mwari </p><p> Nesimba redu rese, </p><p>Wakatiponisa, </p><p>Wakachengeta isu; </p><p> Wakakomborera </p><p>Isu nhambwe dzese </p><p> Nezvipo zvizhinji, </p><p>Ari wedu zvino. </p><p>2. NdiMwari agree </p><p>Petyo nesu narini,</p><p>Tifadze mumwoyo </p><p>Norunyararo rwake;</p><p>Tikotse nenyasha,</p><p>Nokutitungamidza,</p><p>Utiregerere </p><p>Mukuipa Kwese </p><p><br /></p><p>3. Ngativirikidze</p><p>Mwari Baba Mukuru,</p><p>Mwana noMweya</p><p>Unotonga kudenga,</p><p>Mwari mumwe chete,</p><p>Uyo zvese zviro</p><p>Zvinovirikidza</p><p>Napanguva dzese. </p><p>Amen.</p>",
+    "headerNumber": "67676666",
+    "additional": null
+  },
+  {
+    "id": "56b64a54a8266f9560e98682",
+    "hymnNumber": 108,
+    "hymnTitle": "Onward, Christian soldiers",
+    "hymnContent": "<p><br /> </p><p>1 FAMBAI Makristu</p><p>Mukurwa kwedu,</p><p>M’chinjiko waJesu</p><p>Uri pamberi</p><p>Tinotungamidzwa</p><p>NaKristu Mambo,</p><p>Onai pamberi </p><p>Mureza wake.</p><p> Fambai, Makristu</p><p>Mukurwa kwedu,</p><p> M’chinjiko waJesu</p><p> Uri pamberi</p><p><br /> </p><p>2. Kristu akakunda </p><p>Hondo yaSatan, </p><p>Makristu hendei </p><p>Kundokurira. </p><p>Rima rinotyisa </p><p> Nenziyo dzedu; </p><p>Hama ngatiimbe </p><p>Zvitendo zvedu. </p><p><br /> </p><p><br /> </p><p>3. SeChechi yaMwari </p><p>Iri kurwisa, </p><p>Hama tinofamba </p><p>Sezvo vatsvene;</p><p>Hatipatsaniswi </p><p>Tese pamwepo, </p><p>Tiri muchivimbo </p><p>Norudo rumwe. </p><p>4. Umambo hwepasi</p><p> Huchaperazve;</p><p>Igere narini</p><p> Chechi yaKristu</p><p>Zvese zvipingidzo</p><p> Haziikundi</p><p>Chitsidzo ChaKristu</p><p> Hachingakonwi</p><p><br /> </p><p>5. Fambai Pamberi</p><p> Makristu ese,</p><p>Musongane nesu</p><p> Nenziyo dzedu</p><p>Ngatikudze Kristu</p><p> Mambo wembiri</p><p>Isu neNgerosi</p><p> Tichisiimba</p><p><br /> </p>",
+    "headerNumber": "6565D",
+    "additional": null
+  },
+  {
+    "id": "56b64e7fa8266f9560e98683",
+    "hymnNumber": 109,
+    "hymnTitle": "My God, how wonderful thou art",
+    "hymnContent": "<p>1. MWARI uri munanisi </p><p> Umambo hwakozve; </p><p> Nomutsa wako mukuru </p><p> Unojeka kwazvo. </p><p><br /></p><p>2. Iwe unoremekedzwa </p><p>Tenzi ndiwe Mwari, </p><p>Unoomberwa zvikuru, </p><p>Uchivirikidzwa. </p><p><br /></p><p>3. Ndinokutya Mwari wangu </p><p> Nokutya kukuru, </p><p> Nokukuombera Tenzi </p><p> Nechemo yorudo. </p><p><br /></p><p>4. Asi Tenzi ndinokuda,</p><p>Unesimba rese</p><p>Nokuti wakakumbira</p><p>Kuti ndikudise.</p><p><br /></p><p>5. Hapana baba namai</p><p>Vonondida sewe,</p><p>Unondinyengera kwazvo</p><p>Ini munyangadzi.</p><p><br /></p><p>6. Mwari ndiBaba waJesu</p><p>Ndichafara kwazvo</p><p>Kukotama mberi kwako</p><p>Ndikuyeve zvangu.</p>",
+    "headerNumber": "8686",
+    "additional": null
+  },
+  {
+    "id": "56b64fdda8266f9560e98684",
+    "hymnNumber": 110,
+    "hymnTitle": "Pleasant are thy courts above",
+    "hymnContent": "<p>1. DZIMBA dzako Kudenga </p><p> Dzinofadzisa kwazvo; </p><p> Dzati dzepano pasi </p><p> Dzinonakisa pano; </p><p> Mweya wangu wodisa </p><p> Kugara navatsvene, </p><p> Ndiyeve usu hwako </p><p> Ndgere newe Mwari. </p><p><br /></p><p>2. Shiri dziri kuimba, </p><p> Kudenga dzinofara; </p><p> Vanhu vanozorodzwa </p><p> Vanewe pasi pano; </p><p> Kana vari munjodzi </p><p> Nedambudzo repasi, </p><p> Asi muumba yako </p><p> Vanonyaradzwa umo. </p><p><br /></p><p><br /></p><p>3. Vari kufamba pano</p><p>SavaIsraeriwo</p><p>Murwendo vari kumwa</p><p>Manazve vari kudya:</p><p>Manazve vari kudya:</p><p>Vari kusimbisiswa</p><p>Kuti vasvike umo,</p><p>Vachikukudza apo,</p><p>Wakavatungamidza.</p><p><br /></p><p><br /></p><p>4. Tenzi nditungamidze</p><p>Murwendo rwangu pano;</p><p>Ndichengete nomutsa,</p><p>Kwauri ndidaidze.</p><p>Uri Zuva neNhoo</p><p>Chengeta mwoyo wangu;</p><p>Une nyasha nembiri</p><p>Une nyasha nembiri</p><p>Zvipe kwandiri Tenzi.</p>",
+    "headerNumber": "77777D",
+    "additional": null
+  },
+  {
+    "id": "56b652cfa8266f9560e98685",
+    "hymnNumber": 111,
+    "hymnTitle": "Loving Shepherd of thy sheep",
+    "hymnContent": "<p>1. MUFUDZI unondida </p><p> Chengeta nyenye yako; </p><p> Simba rako iguru </p><p> Handibviswi kunewe. </p><p><br /></p><p>2. M’ponisi une rudo </p><p>Wakandifira ini; </p><p>Simudza manja ako </p><p>Uonise mavanga </p><p><br /></p><p> 3. Ndinoda kukukudza</p><p> Ndiite rudo rwako,</p><p> Savatsvene kudenga</p><p> Vari kukuombera</p><p> 4. Mufudzi wakanaka</p><p> Dzidzisa nyenye yako,</p><p> Ndirege kurasika</p><p> Munzira yakanaka.</p><p><br /></p><p>5 Ndinoda kutevera</p><p>Tsoka dzako, M’ponisi,</p><p>Dzamara ndichisvika</p><p>Kukuona kudenga.</p>",
+    "headerNumber": "7777",
+    "additional": null
+  },
+  {
+    "id": "56b65316a8266f9560e98686",
+    "hymnNumber": 112,
+    "hymnTitle": "Praise the Lord, ye heaven adore him",
+    "hymnContent": "<p>1. DENGA virikidza Mwari </p><p> Ngerosi tunhidzai; </p><p> Zuva mwedzi kotamai </p><p> Nyenyedzi mukudzei, </p><p> M’ponisi wakataura </p><p> Pasi rakanzwa izwi, </p><p> Mwari wakapa mitemo </p><p> Isingazotyorwizve. </p><p><br /></p><p>2. Mukudzei Chine Mbiri</p><p>Haatyori chitsidzo,</p><p>Vatsvene vakund ndive;</p><p>Akavapa mukundo.</p><p>Mukudzei Muponisi</p><p>Ngerosi imbaiwo,</p><p>Denga pasi rezvisikwa</p><p>Kudzai Zita rake.</p>",
+    "headerNumber": "878787",
+    "additional": null
+  },
+  {
+    "id": "56b6535ea8266f9560e98687",
+    "hymnNumber": 113,
+    "hymnTitle": "Praise, my soul, the King of Heaven",
+    "hymnContent": "<p>1. MWEYA ‘ngu rumbidza Mambo </p><p> Uunze chipo chako, </p><p> Wakasunungurwa ndiye </p><p> Muimbire narini; </p><p> Areruya, Areruya! </p><p> Ngaarumbidzwe Mambo. </p><p><br /></p><p>2. Timurumbidzire nyasha </p><p> Kuna vababa vedu; </p><p>Anogara akadaro, </p><p> Ha’chimbidzi kushora. </p><p> Areruya, Areruya! </p><p> Iye mutendeseki. </p><p><br /></p><p>3. Unotichengeta kwazvo</p><p>SaBaba Unotida </p><p>Unotibata nomutsa</p><p>Unodzinga mhanduzve</p><p>Areruya, Areruya!</p><p>Mutsa wako mukuru</p><p><br /></p><p>4. Mutunhidzei ngerosi,</p><p>Muri kumutarisa;</p><p>Pfugamai, Vanoyera,</p><p>Vendudzi dzese dzese;</p><p>Areruya, Areruya!</p><p>Tese titende Mwari.</p>",
+    "headerNumber": "878787",
     "additional": null
   }
 ]
