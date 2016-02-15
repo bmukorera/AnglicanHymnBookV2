@@ -25,8 +25,8 @@
       <file leaf-file-name="hymns.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/json/hymns.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26108375">
-              <caret line="1188" column="54" selection-start-line="1188" selection-start-column="54" selection-end-line="1188" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.77832514">
+              <caret line="1202" column="0" selection-start-line="1202" selection-start-column="0" selection-end-line="1202" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -646,12 +646,12 @@
       <workItem from="1453919031711" duration="22321000" />
       <workItem from="1454498796744" duration="15990000" />
       <workItem from="1455124558267" duration="367000" />
-      <workItem from="1455288459084" duration="1045000" />
+      <workItem from="1455288459084" duration="2088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84517000" />
+    <option name="totallyTimeSpent" value="85560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -1030,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/hymns.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26108375">
-          <caret line="1188" column="54" selection-start-line="1188" selection-start-column="54" selection-end-line="1188" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.77832514">
+          <caret line="1202" column="0" selection-start-line="1202" selection-start-column="0" selection-end-line="1202" selection-end-column="0" />
           <folding />
         </state>
       </provider>
