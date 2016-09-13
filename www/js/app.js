@@ -19,6 +19,27 @@ angular.module('hymnApp', ['ionic', 'hymnApp.controllers'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+   if(window.plugins && window.plugins.AdMob) {
+      var admob_key = "ca-app-pub-9678945537214962/4353420176";//device.platform == "Android" ? "ca-app-pub-9678945537214962/4353420176" : "ca-app-pub-9678945537214962/2737086171";
+      var admob = window.plugins.AdMob;
+      admob.createBannerView(
+          {
+            'publisherId': admob_key,
+            'adSize': admob.AD_SIZE.BANNER,
+            'bannerAtTop': false
+          },
+          function() {
+            admob.requestAd(
+                { 'isTesting': false },
+                function() {
+                  admob.showAd(true);
+                },
+                function() { console.log('failed to request ad'); }
+            );
+          },
+          function() { console.log('failed to create banner view'); }
+      );
+  }
   });
 })
 
