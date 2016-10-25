@@ -6,7 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('hymnApp', ['ionic', 'hymnApp.controllers'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform,$ionicPopup) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -19,27 +19,80 @@ angular.module('hymnApp', ['ionic', 'hymnApp.controllers'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-   if(window.plugins && window.plugins.AdMob) {
-      var admob_key = "ca-app-pub-9678945537214962/4353420176";//device.platform == "Android" ? "ca-app-pub-9678945537214962/4353420176" : "ca-app-pub-9678945537214962/2737086171";
-      var admob = window.plugins.AdMob;
-      admob.createBannerView(
-          {
-            'publisherId': admob_key,
-            'adSize': admob.AD_SIZE.BANNER,
-            'bannerAtTop': false
-          },
-          function() {
-            admob.requestAd(
-                { 'isTesting': false },
-                function() {
-                  admob.showAd(true);
-                },
-                function() { console.log('failed to request ad'); }
-            );
-          },
-          function() { console.log('failed to create banner view'); }
+
+    var admob_key =  ionic.Platform.isAndroid()? "ca-app-pub-9678945537214962/4353420176" : "ca-app-pub-9678945537214962/3012517379";
+    admobid = { // for Android
+      banner: admob_key
+    };
+    if(AdMob){
+      AdMob.createBanner(
+        {
+          adId:admobid.banner,
+          position:AdMob.AD_POSITION.BOTTOM_CENTER,
+          isTesting: true,
+          autoShow:true
+        }
       );
-  }
+      //ca-app-pub-9678945537214962/1256582575
+      var admob_key_interstial =  ionic.Platform.isAndroid()? "ca-app-pub-9678945537214962/1285105377" : " ca-app-pub-9678945537214962/2761838573";
+
+      AdMob.prepareInterstitial({
+        adId: admob_key_interstial,
+        isTesting: true, // TODO: remove this line when release
+        autoShow: true
+      });
+
+    }else {
+      console.log("platform not found>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+    }
+
+
+    FCMPlugin.getToken(
+      function (token) {
+       // console.log(token);
+      },
+      function (err) {
+        //console.log('error retrieving token: ' + err);
+      }
+    );
+
+    FCMPlugin.onNotification(
+      function(data){
+        console.log(JSON.stringify(data.messageNot));
+        if(data.wasTapped){
+          //Notification was received on device tray and tapped by the user.
+          //console.log("=====================alert received =============if==="+JSON.stringify(data));
+          showAlert(JSON.stringify(data.hymnMessage));
+        }else{
+          //Notification was received in foreground. Maybe the user needs to be notified.
+         // console.log("=====================alert received =============else==="+JSON.stringify(data));
+          showAlert(JSON.stringify(data.hymnMessage));
+        }
+      },
+      function(msg){
+       // console.log('onNotification callback successfully registered: ' + msg);
+       // showAlert(JSON.stringify(msg));
+      },
+      function(err){
+        console.log('Error registering onNotification callback: ' + err);
+      }
+    );
+
+
+
+    var showAlert = function(data) {
+      var alertPopup = $ionicPopup.alert({
+        title: 'Anglican Shona Hymns',
+        template: data
+      });
+
+      alertPopup.then(function(res) {
+
+      });
+    };
+
+
+
   });
 })
 

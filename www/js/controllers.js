@@ -51,14 +51,12 @@ angular.module('hymnApp.controllers', [])
   if(ionic.Platform.isIOS()) {
     $http.get("json/hymns.json").then(function (res) {
       //$http.get("/android_asset/www/json/hymns.json").then(function (res) {
-      console.log("****************************" + angular.fromJson(res.data));
       var result = angular.fromJson(res.data);
       $scope.playlists = result;
     })
   }
   else if(ionic.Platform.isAndroid()){
     $http.get("/android_asset/www/json/hymns.json").then(function (res) {
-      console.log("****************************" + angular.fromJson(res.data));
       var result = angular.fromJson(res.data);
       $scope.playlists = result;
     })
@@ -72,7 +70,6 @@ angular.module('hymnApp.controllers', [])
       $scope.hymnNumber=$stateParams.hymnNumber;
       $scope.hymnHeaderNumber=$stateParams.hymnHeaderNumber;
       $scope.hymnContent=$stateParams.hymnContent;
-console.log("selectetion done");
 })
     .controller('PrayerListCtrl',function($scope){
       $scope.prayerMainList =[
@@ -86,34 +83,29 @@ console.log("selectetion done");
 
       if(ionic.Platform.isIOS()) {
         $http.get("json/samu.json").then(function (res) {
-          console.log("****************************" + angular.fromJson(res.data));
           var result = angular.fromJson(res.data);
           $scope.samuList = result;
         })
       }
       else if(ionic.Platform.isAndroid()){
         $http.get("/android_asset/www/json/samu.json").then(function (res) {
-          console.log("****************************" + angular.fromJson(res.data));
           var result = angular.fromJson(res.data);
           $scope.samuList = result;
         })
       }
 
-      console.log("samu list clicked "+$scope.samuList.length);
     })
     .controller('BmcCtrl',function($scope,$http){
 $scope.bmgPrayersList=[];
 
       if(ionic.Platform.isIOS()) {
         $http.get("json/bmgmunamato.json").then(function (res) {
-          console.log("****************************" + angular.fromJson(res.data));
           var result = angular.fromJson(res.data);
           $scope.bmgPrayersList = result;
         })
       }
       else if(ionic.Platform.isAndroid()){
         $http.get("/android_asset/www/json/bmgmunamato.json").then(function (res) {
-          console.log("****************************" + angular.fromJson(res.data));
           var result = angular.fromJson(res.data);
           $scope.bmgPrayersList = result;
         })
@@ -127,7 +119,6 @@ $scope.bmgPrayersList=[];
       $scope.samuTitle=$stateParams.samuTitle;
       $scope.samuContent=$stateParams.samuContent;
 
-      console.log("samu selectetion done" +$stateParams.samuContent);
     })
     .controller('HomeCtrl',function($scope){
      $scope.homeList=[
