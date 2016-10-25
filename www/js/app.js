@@ -29,7 +29,7 @@ angular.module('hymnApp', ['ionic', 'hymnApp.controllers'])
         {
           adId:admobid.banner,
           position:AdMob.AD_POSITION.BOTTOM_CENTER,
-          isTesting: true,
+          isTesting: false,
           autoShow:true
         }
       );
@@ -38,7 +38,7 @@ angular.module('hymnApp', ['ionic', 'hymnApp.controllers'])
 
       AdMob.prepareInterstitial({
         adId: admob_key_interstial,
-        isTesting: true, // TODO: remove this line when release
+        isTesting: false, // TODO: remove this line when release
         autoShow: true
       });
 
