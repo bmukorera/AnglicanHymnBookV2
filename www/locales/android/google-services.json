@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431857166259",
+    "firebase_url": "https://admob-app-id-2274158579.firebaseio.com",
+    "project_id": "admob-app-id-2274158579",
+    "storage_bucket": "admob-app-id-2274158579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431857166259:android:f3a6346630e77b8c",
+        "android_client_info": {
+          "package_name": "hymn.bmukorera.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431857166259-gigvfe1536dke419067tsain2p1s5ptp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0msJBH0ZYv7fo-sTkTHo1ClpzTyZUtr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
