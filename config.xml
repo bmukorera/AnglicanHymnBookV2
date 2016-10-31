@@ -11,7 +11,6 @@
   <access origin="*"/>
   <cdv:plugin name="org.apache.cordova.splashscreen" />
   <cdv:plugin name="cordova.plugin.admobpro" />
-  <cdv:plugin name="cordova.plugin.device" />
   <cdv:plugin name="cordova.plugin.extension" />
   <cdv:plugin name="cordova.plugin.whitelist" />
   <cdv:plugin name="ionic.plugin.keyboard" />
