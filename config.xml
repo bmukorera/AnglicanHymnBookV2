@@ -11,6 +11,7 @@
   <access origin="*"/>
   <cdv:plugin name="org.apache.cordova.splashscreen" />
   <cdv:plugin name="cordova-plugin-admobpro" />
+  <cdv:plugin name="cordova-plugin-fcm " />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
