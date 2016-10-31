@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="hymn.bmukorera.com" version="2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="hymn.bmukorera.com" version="2.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Anglican Shona Hymns</name>
   <description>
         Anglican Shona Hymns
@@ -10,6 +10,11 @@
   <content src="index.html"/>
   <access origin="*"/>
   <cdv:plugin name="org.apache.cordova.splashscreen" />
+  <cdv:plugin name="cordova.plugin.admobpro" />
+  <cdv:plugin name="cordova.plugin.device" />
+  <cdv:plugin name="cordova.plugin.extension" />
+  <cdv:plugin name="cordova.plugin.whitelist" />
+  <cdv:plugin name="ionic.plugin.keyboard" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
