@@ -9,7 +9,7 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <cdv:plugin name="org.apache.cordova.splashscreen" />
+  <cdv:plugin name="cordova-plugin-splashscreen" />
   <cdv:plugin name="cordova-plugin-admobpro" />
   <cdv:plugin name="cordova-plugin-inapppurchase" />
   <!--<cdv:plugin name="cordova-plugin-fcm " />-->
