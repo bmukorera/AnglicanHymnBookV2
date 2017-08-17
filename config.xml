@@ -12,7 +12,7 @@
   <cdv:plugin name="cordova-plugin-splashscreen" />
   <cdv:plugin name="cordova-plugin-admobpro" />
   <cdv:plugin name="cordova-plugin-inapppurchase" />
-  <!--<cdv:plugin name="cordova-plugin-fcm " />-->
+  <cdv:plugin name="cordova-plugin-inappbrowser" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
